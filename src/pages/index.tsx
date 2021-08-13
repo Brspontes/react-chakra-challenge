@@ -19,7 +19,7 @@ export default function Home() {
           <SimpleGrid column="1">
             <Text fontSize="4xl" color="gray.50" >5 Continentes, <br /> Infinitas posiibilidades</Text>
             <Text fontSize="lg" color="gray.50" marginTop="8" >
-              Chegou a hrora de tirar do papel a viagem que sempre sonhou
+              Chegou a hora de tirar do papel a viagem que sempre sonhou
             </Text>
           </SimpleGrid>
         </Box>
