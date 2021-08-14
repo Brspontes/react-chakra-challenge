@@ -1,5 +1,6 @@
 import { Flex, Box, SimpleGrid, Text, Image, useBreakpointValue, Divider, Center } from '@chakra-ui/react'
 import Head from 'next/head'
+import Carousel from '../components/Carousel'
 import Header from '../components/Header'
 
 export default function Home() {
@@ -47,6 +48,9 @@ export default function Home() {
             Então escolha seu continente
           </Text>
         </Center>
+      </Flex>
+      <Flex width="100%" maxWidth={1480} margin="auto" align="center" justifyContent="center">
+        <Carousel />
       </Flex>
     </Flex>
   )
